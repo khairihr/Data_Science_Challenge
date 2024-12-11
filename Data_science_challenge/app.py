@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score, mean_squared_error
 
 @st.cache
 def load_data():
-    return pd.read_csv("E:\khrd\Code\Data_science_challenge\Orange_Quality_Data.csv")
+    return pd.read_csv("Orange_Quality_Data.csv")
 
 
 st.title("Klasifikasi Kualitas Jeruk 🍊")
